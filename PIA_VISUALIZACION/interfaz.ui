@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1271</width>
+    <height>724</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="interfaz">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="lineWidth">
+       <number>0</number>
+      </property>
+      <widget class="QLabel" name="labelBienvenida">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>10</y>
+         <width>241</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:white;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:600; color:#ffffff;&quot;&gt;¡Bienvenido a Netflix!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelLogo">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>10</y>
+         <width>171</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>Cuarto Semestre/3-PROGRAMACION BASE DE DATOS/CATALOGOPELICULA/DATOSPROGRAMACION/netflix-logo-51.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bot_siniestro">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>70</y>
+         <width>181</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imagenes/71OMGioHUGL._AC_UF894,1000_QL80_.png</normaloff>imagenes/71OMGioHUGL._AC_UF894,1000_QL80_.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>181</width>
+         <height>271</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bot_saw">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>70</y>
+         <width>181</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imagenes/5853520.png</normaloff>imagenes/5853520.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>181</width>
+         <height>271</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bot_guerramundz">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>80</y>
+         <width>181</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imagenes/guerra-mundial-z.png</normaloff>imagenes/guerra-mundial-z.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>181</width>
+         <height>271</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bot_pawpatrol">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>80</y>
+         <width>181</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imagenes/la_patrulla_canina_la_superpelicula-cartel-11269.png</normaloff>imagenes/la_patrulla_canina_la_superpelicula-cartel-11269.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>181</width>
+         <height>271</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bot_joker">
+       <property name="geometry">
+        <rect>
+         <x>850</x>
+         <y>80</y>
+         <width>181</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imagenes/joker-2019-movie-joker-joaquin-phoenix-actor-men-hd-wallpaper-preview.png</normaloff>imagenes/joker-2019-movie-joker-joaquin-phoenix-actor-men-hd-wallpaper-preview.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>181</width>
+         <height>271</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bot_godzilla">
+       <property name="geometry">
+        <rect>
+         <x>1050</x>
+         <y>70</y>
+         <width>181</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imagenes/image.png</normaloff>imagenes/image.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>181</width>
+         <height>271</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bot_jhonwwick">
+       <property name="geometry">
+        <rect>
+         <x>850</x>
+         <y>370</y>
+         <width>181</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imagenes/John_Wick_4-101402041-large.png</normaloff>imagenes/John_Wick_4-101402041-large.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>181</width>
+         <height>271</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bot_mortalkombat">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>360</y>
+         <width>181</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imagenes/Mortal_Kombat-245960455-large.png</normaloff>imagenes/Mortal_Kombat-245960455-large.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>181</width>
+         <height>271</height>
+        </size>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bot_rojo">
+       <property name="geometry">
+        <rect>
+         <x>1050</x>
+         <y>370</y>
+         <width>181</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imagenes/Red-571108878-large.png</normaloff>imagenes/Red-571108878-large.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>181</width>
+         <height>271</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bot_spiderman">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>360</y>
+         <width>181</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imagenes/MV5BMzI0NmVkMjEtYmY4MS00ZDMxLTlkZmEtMzU4MDQxYTMzMjU2XkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.png</normaloff>imagenes/MV5BMzI0NmVkMjEtYmY4MS00ZDMxLTlkZmEtMzU4MDQxYTMzMjU2XkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>181</width>
+         <height>271</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bot_barbie">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>360</y>
+         <width>181</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imagenes/5479684.png</normaloff>imagenes/5479684.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>181</width>
+         <height>271</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bot_bluebettle">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>360</y>
+         <width>181</width>
+         <height>271</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imagenes/MV5BMmY1ODUzZGItNDllOS00MDBhLTg4NmUtYjU4YjUxMGNlYmMwXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.png</normaloff>imagenes/MV5BMmY1ODUzZGItNDllOS00MDBhLTg4NmUtYjU4YjUxMGNlYmMwXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>181</width>
+         <height>271</height>
+        </size>
+       </property>
+       <property name="flat">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="BotonInicio">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>20</y>
+         <width>113</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;
+</string>
+       </property>
+       <property name="text">
+        <string>Inicio</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="BotonPeliculas">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>20</y>
+         <width>113</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;
+</string>
+       </property>
+       <property name="text">
+        <string>Peliculas</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bot_cerrarsesion">
+       <property name="geometry">
+        <rect>
+         <x>950</x>
+         <y>660</y>
+         <width>121</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:5px;
+background-color: rgb(240, 0, 27);
+Color: white;</string>
+       </property>
+       <property name="text">
+        <string>Cerrar Sesión</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="bot_salir">
+       <property name="geometry">
+        <rect>
+         <x>1100</x>
+         <y>660</y>
+         <width>121</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <italic>false</italic>
+         <bold>true</bold>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-radius:5px;
+background-color: rgb(240, 0, 27);
+Color: white;</string>
+       </property>
+       <property name="text">
+        <string>Salir </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelLogo_2">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>20</y>
+         <width>171</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../Cuarto Semestre/3-PROGRAMACION BASE DE DATOS/CATALOGOPELICULA/DATOSPROGRAMACION/netflix-logo-51.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="labelUsuario">
+       <property name="geometry">
+        <rect>
+         <x>1060</x>
+         <y>30</y>
+         <width>60</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+         <strikeout>false</strikeout>
+         <kerning>true</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">COLOR: WHITE;</string>
+       </property>
+       <property name="text">
+        <string>USUARIO</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
